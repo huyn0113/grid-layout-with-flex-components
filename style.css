@@ -30,12 +30,13 @@ body {
     display: flex;
   }
   
-  /* ADDS DISPLAU FLEX TO CONTENT PARAGRAPHS */
+  /* ADDS DISPLAY FLEX TO CONTENT AND PUSHES BUTTONS TO BOTTOM OF CARD WITH FLEX GROW*/
   .emoji p {
     display: flex;
+    flex-grow: 2;
   }
 
-  /* ADDS FLEX TO BUTTON, SIZES IT AND ALIGNS IT TO BOTTOM OF CARD */
+  /* ADDS FLEX TO BUTTON AND SIZES IT */
   .emoji a {
     text-decoration: none;
     background-color: #781BAA;
@@ -43,8 +44,6 @@ body {
     padding: 1rem;
     border-radius: 8px;
     display: flex;
-    flex-direction: column;
-    margin-top: auto;
 
   }
   
