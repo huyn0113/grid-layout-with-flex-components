@@ -1,4 +1,4 @@
-
+/* CENTERS AND SIZES BODY CONTAINER SIZING */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -23,17 +23,19 @@ body {
     grid-template-rows: repeat(2, 1fr);
   }
 
+  /* ADDS DISPLAY FLEX TO H2 */
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
     display: flex;
   }
   
+  /* ADDS DISPLAU FLEX TO CONTENT PARAGRAPHS */
   .emoji p {
     display: flex;
   }
 
-  /* ADDS FLEX TO BUTTON AND SIZES IT TO THE CONTAINER */
+  /* ADDS FLEX TO BUTTON, SIZES IT AND ALIGNS IT TO BOTTOM OF CARD */
   .emoji a {
     text-decoration: none;
     background-color: #781BAA;
@@ -46,6 +48,7 @@ body {
 
   }
   
+  /* ADDS FLEX TO ICON, CHANGES ORDER AND CENTERS IT */
   .icon {
     font-size: 4rem;
     order: -1;
